@@ -248,7 +248,7 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
 		
 		"wip_skins" => "turquoise", 
 		
-		"wip_logo_font" => "Montez", 
+		"wip_logo_font" => "Roboto",
 		"wip_logo_font_size" => "55px", 
 		
 		"wip_menu_font" => "Oxygen", 

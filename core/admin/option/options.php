@@ -43,6 +43,7 @@ array( "type" => "begintab",
 	       "id" => $shortname."_skins",
 	       "type" => "select",
 	       "options" => array(
+	       "bmoregeo" => __( "BmoreGeo","wip"),
 	   	   "turquoise" => __( "Turquoise","wip"),
 	   	   "orange" => __( "Orange","wip"),
 	   	   "blue" => __( "Blue","wip"),

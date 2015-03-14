@@ -10,7 +10,40 @@
  */
 
 
-$skins = array( 
+$skins = array(
+	"bmoregeo" => array(
+		"wip_skins" => "bmoregeo",
+
+		"wip_logo_font" => "Roboto",
+		"wip_logo_font_size" => "55px",
+
+		"wip_text_font_color" => "#616161",
+
+		"wip_link_color" => "#48c9b0",
+		"wip_link_color_hover" => "#1abc9c",
+
+		"wip_header_text_color" => "#ffffff",
+		"wip_subheader_text_color" => "#ffffff",
+
+		"wip_bottom_text_color" => "#ffffff",
+		"wip_social_icons_color" => "#333333",
+		"wip_social_icons_hover" => "#ffffff",
+		"wip_copyright_text_color" => "#ffffff",
+
+		"wip_body_background" => "/images/background/patterns/pattern12.jpg",
+		"wip_body_background_repeat" => "repeat",
+		"wip_body_background_color" => "#f3f3f3",
+
+		"wip_header_background_color" => "#262626",
+		"wip_subheader_background_color" => "#212121",
+		"wip_header_border_color" => "#333333",
+
+		"wip_bottom_background_color" => "#262626",
+		"wip_socialbox_background_color" => "#212121",
+		"wip_footer_background_color" => "#262626",
+		"wip_bottom_border_color" => "#333333",
+
+	),
 
 	"orange" => array(
 	

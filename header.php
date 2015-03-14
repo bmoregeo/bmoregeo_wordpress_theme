@@ -9,6 +9,8 @@
 	<link rel="shortcut icon" href="<?php echo novalite_setting('wip_custom_favicon'); ?>"/>
 <?php endif; ?>
 
+<link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
@@ -34,19 +36,19 @@
     <div class="container">
         <div class="row">
             
-            <div class="span3" >
+            <div class="span5" >
                
                 <div id="logo">
                         
                     <a href="<?php echo home_url(); ?>" title="<?php bloginfo('name') ?>">
                             
                         <?php 
-                                        
+
                             if ( novalite_setting('wip_custom_logo') ):
-                                echo "<img src='".novalite_setting('wip_custom_logo')."' alt='logo'>"; 
-                            else: 
+                                echo "<img src='".novalite_setting('wip_custom_logo')."' alt='logo'>";
+                            else:
                                 bloginfo('name');
-                            endif; 
+                            endif;
                             
                         ?>
                                 
@@ -55,7 +57,7 @@
                 </div>
     		</div>
 
-            <div class="span9" >
+            <div class="span7" >
               
                 <nav id="mainmenu">
                     <?php wp_nav_menu( array('theme_location' => 'main-menu', 'container' => 'false','depth' => 3  )); ?>
