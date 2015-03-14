@@ -15,7 +15,7 @@ $skins = array(
 		"wip_skins" => "bmoregeo",
 
 		"wip_logo_font" => "Roboto",
-		"wip_logo_font_size" => "55px",
+		"wip_titles_font" => "Roboto",
 
 		"wip_text_font_color" => "#616161",
 
