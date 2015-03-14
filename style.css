@@ -12,7 +12,10 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 */
-
+html, body{
+	height:100%;
+	width:100%;
+}
 html { 
 	min-height:101%;
 }
@@ -1843,4 +1846,13 @@ div.overlay-image.medium .wp-post-image{ width:240px; height:171px }
 div.overlay-image.large .overlay, 
 div.overlay-image.large .wp-post-image { width:300px; height:213px }
 
+}
+
+#map{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:-1
 }

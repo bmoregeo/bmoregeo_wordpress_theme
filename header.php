@@ -30,6 +30,7 @@
 </head>
 
 <body <?php body_class('custombody'); ?>>
+<div id="map"></div>
 
 <header id="header">
 
