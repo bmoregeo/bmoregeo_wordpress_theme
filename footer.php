@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row" >
              
-			<div class="span12 copyright" >
+			<div class="col-xs-24 col-md-12 copyright" >
             
                 <p>
                     <?php if (novalite_setting('wip_copyright_text')): ?>

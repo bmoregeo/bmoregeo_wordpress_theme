@@ -230,7 +230,7 @@ a.btn {
 
 #subheader {
 	width:100%; 
-	background:#212121;
+	background:#AAAAAA;
 	padding:50px 0; 
 	color:#fff;
 	position:relative;
@@ -259,7 +259,7 @@ a.btn {
 	display:block;
 	padding:0; 
 	text-align:left;
-	margin: 45px 0;
+	margin: 20px 0;
 	word-wrap: break-word;
 } 
 #logo a { 
@@ -440,6 +440,7 @@ nav#mainmenu ul ul li ul:before {
 	font-weight: 300;
 	color:#fafafa;
 	margin:0;
+	padding:0;
 }
 
 .bottom h3.title { 
@@ -619,15 +620,15 @@ nav#mainmenu ul ul li ul:before {
 	float:left;
 }
 
-#blog .pin-article.span8,
-#blog .span8.left-sidebar,
-#blog .span8.right-sidebar  {
+#blog .pin-article.col-xs-16.col-md-8,
+#blog .col-xs-16.col-md-8.left-sidebar,
+#blog .col-xs-16.col-md-8.right-sidebar  {
 	margin-bottom:25px;
 }
 
-#blog .pin-article.span8:last-of-type,
-#blog .span8.left-sidebar:last-of-type,
-#blog .span8.right-sidebar:last-of-type  {
+#blog .pin-article.col-xs-16.col-md-8:last-of-type,
+#blog .col-xs-16.col-md-8.left-sidebar:last-of-type,
+#blog .col-xs-16.col-md-8.right-sidebar:last-of-type  {
 	margin-bottom:0;
 }
 
@@ -699,7 +700,7 @@ nav#mainmenu ul ul li ul:before {
 	margin:0 0 25px 0;
 }
 
-.span12.pin-article h1.title {
+.col-xs-24.col-md-12.pin-article h1.title {
 	font-size:38px;
 }
 
@@ -724,10 +725,10 @@ nav#mainmenu ul ul li ul:before {
 	padding:50px;
 }
 
-.span8 article.article, 
-.span6 article.article, 
-.span4 article.article, 
-.span3 article.article { 
+.col-xs-16.col-md-8 article.article, 
+.col-xs-12.col-md-6 article.article, 
+.col-xs-8.col-md-4 article.article, 
+.col-xs-6 col-md-3 article.article { 
 	padding:25px;
 }
 
@@ -736,8 +737,8 @@ nav#mainmenu ul ul li ul:before {
 	padding:0 !important;
 }
 
-#blog .pin-article.span4,
-#blog .pin-article.span6 {
+#blog .pin-article.col-xs-8.col-md-4,
+#blog .pin-article.col-xs-12.col-md-6 {
 	margin-bottom:25px;
 }
 
@@ -749,7 +750,7 @@ nav#mainmenu ul ul li ul:before {
 	z-index:999;
 }
 
-.pin-article.span4 .line {
+.pin-article.col-xs-8.col-md-4 .line {
 	margin:30px 0 20px 0;
 }
 
@@ -832,27 +833,27 @@ article blockquote p {
 .archive { 
 	margin:0;
 }
-.span4 .line {
+.col-xs-8.col-md-4 .line {
 	width:auto;
 	background:none;
 	margin:inherit;
 }
-.span4 .line:before {
+.col-xs-8.col-md-4 .line:before {
 	display:none;
 }
-.span4 .line .tags {
+.col-xs-8.col-md-4 .line .tags {
 	padding:0;
 }
-.span4 .entry-info {
+.col-xs-8.col-md-4 .entry-info {
 	padding:0;
 }
 
-.span4 .entry-info .entry-date, 
-.span4 .entry-info .entry-comments,
-.span4 .entry-info .entry-audio, 
-.span4 .entry-info .entry-video,
-.span4 .entry-info .entry-standard,
-.span4 .entry-info .entry-gallery {
+.col-xs-8.col-md-4 .entry-info .entry-date, 
+.col-xs-8.col-md-4 .entry-info .entry-comments,
+.col-xs-8.col-md-4 .entry-info .entry-audio, 
+.col-xs-8.col-md-4 .entry-info .entry-video,
+.col-xs-8.col-md-4 .entry-info .entry-standard,
+.col-xs-8.col-md-4 .entry-info .entry-gallery {
 	display:block;
 	text-align:left;
 	width:inherit;
@@ -860,7 +861,7 @@ article blockquote p {
 	margin:5px auto;
 }
 
-.span4 .sep  {
+.col-xs-8.col-md-4 .sep  {
 	display:none;
 }
 
@@ -968,6 +969,9 @@ h3#reply-title small,
 #searchform {
 	margin:0 !important;
 }
+#searchform label{
+	width:100%;
+}
 
 #searchform input[type=text], 
 #searchform textarea,
@@ -1005,9 +1009,9 @@ h3#reply-title small,
 	display: block;
 }
 
-.span12 #searchform input[type=submit],
-.span12 .contact-form input[type=submit],
-.span12 .comment-form input[type=submit] {
+.col-xs-24.col-md-12 #searchform input[type=submit],
+.col-xs-24.col-md-12 .contact-form input[type=submit],
+.col-xs-24.col-md-12 .comment-form input[type=submit] {
 	margin:45px 0 -20px 0;
 }
 
@@ -1045,17 +1049,17 @@ h3#reply-title small,
 	display:inline-block;
 }
 
-.span6 #searchform #searchsubmit,
-.span4 #searchform #searchsubmit,
-.span3 #searchform #searchsubmit {
+.col-xs-12.col-md-6 #searchform #searchsubmit,
+.col-xs-8.col-md-4 #searchform #searchsubmit,
+.col-xs-6 col-md-3 #searchform #searchsubmit {
 	width:30%;
 }
 
-.span6 #searchform input[type=text] {
+.col-xs-12.col-md-6 #searchform input[type=text] {
 	width:65%;
 }
-.span4 #searchform input[type=text],
-.span3 #searchform input[type=text] {
+.col-xs-8.col-md-4 #searchform input[type=text],
+.col-xs-6 col-md-3 #searchform input[type=text] {
 	width:64%;
 }
 
@@ -1767,12 +1771,12 @@ h3.comments {
 	line-height: inherit;
 }
 
-.span3.left-sidebar ,
-.span4.left-sidebar,
-.span3.right-sidebar ,
-.span4.right-sidebar,
-.span8.left-sidebar,
-.span8.right-sidebar {
+.col-xs-6 col-md-3.left-sidebar ,
+.col-xs-8.col-md-4.left-sidebar,
+.col-xs-6 col-md-3.right-sidebar ,
+.col-xs-8.col-md-4.right-sidebar,
+.col-xs-16.col-md-8.left-sidebar,
+.col-xs-16.col-md-8.right-sidebar {
 	float:none;
 }
 
@@ -1856,4 +1860,30 @@ div.overlay-image.large .wp-post-image { width:300px; height:213px }
 	left:0;
 	z-index:-1;
 	background:black;
+}
+
+.panel-black{
+	border-color:#AAA !important;
+	min-height:300px;
+}
+.panel-black .panel-heading{
+	border-color:#000;
+	background:#000;
+	color:#FFF;
+	text-align:center;
+}
+.panel-black a .panel-heading{
+	color:#FFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+.panel-black a:hover .panel-heading{
+	color:#AAA;
+}
+.panel-black .panel-body{
+	padding:0;
+	overflow:hidden;
+}
+.pin-article{
+	margin:15px;
 }

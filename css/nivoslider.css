@@ -171,9 +171,9 @@
 	font-size:18px;
 }
 
-.span3 .nivo-caption a,
-.span4 .nivo-caption a,
-.span6 .nivo-caption a {
+.col-xs-6.col-md-3 .nivo-caption a,
+.col-xs-8.col-md-4 .nivo-caption a,
+.col-xs-12.col-md-6 .nivo-caption a {
 	padding: 12.5px 20px;
 	font-size:14px;
 }
@@ -210,9 +210,9 @@
 @media screen and (min-width : 0px) and (max-width : 768px)  {	
 
 	.nivo-caption a,
-	.span3 .nivo-caption a,
-	.span4 .nivo-caption a,
-	.span6 .nivo-caption a {
+	.col-xs-6.col-md-3 .nivo-caption a,
+	.col-xs-8.col-md-4 .nivo-caption a,
+	.col-xs-12.col-md-6 .nivo-caption a {
 		padding: 12.5px 20px !important;
 		font-size:14px;
 	}

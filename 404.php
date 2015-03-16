@@ -3,7 +3,7 @@
 <section id="subheader">
 	<div class="container">
     	<div class="row">
-            <div class="span12">
+            <div class="col-xs-24 col-md-12">
 				<h1><?php _e( 'Not found','wip'); ?> </h1>
             </div>        
 		</div>
@@ -14,7 +14,7 @@
 	<div class="row" id="portfolio" >
 		
 		
-        <div class="pin-article span12">
+        <div class="pin-article col-xs-24 col-md-12">
 
 			<article class="article">
             

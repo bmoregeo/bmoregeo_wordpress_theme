@@ -86,7 +86,7 @@ function novalite_social_function() {
     <section class="bottom bottom_socials">
         <div class="container">
             <div class="row copyright" >
-                <div class="span12">
+                <div class="col-xs-24 col-md-12">
         
                     <div class="socials">
                         

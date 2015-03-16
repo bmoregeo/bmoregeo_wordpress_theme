@@ -35,7 +35,7 @@ $skins = array(
 		"wip_body_background_color" => "#f3f3f3",
 
 		"wip_header_background_color" => "#262626",
-		"wip_subheader_background_color" => "#212121",
+		"wip_subheader_background_color" => "#AAAAAA",
 		"wip_header_border_color" => "#333333",
 
 		"wip_bottom_background_color" => "#262626",

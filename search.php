@@ -3,7 +3,7 @@
         <section id="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="span12">
+                    <div class="col-xs-24 col-md-12">
         
                         <h1><?php _e( '<span>Search </span> results for', 'wip' ) ?> <strong><?php echo $s; ?> </strong></h1>
                     
@@ -68,9 +68,9 @@
             
         <?php endif; ?>
     
-        <?php if ( novalite_template('span') == "span8" ) : ?>
+        <?php if ( novalite_template('span') == "col-xs-16 col-md-8" ) : ?>
             
-            <section id="sidebar" class="span4">
+            <section id="sidebar" class="col-xs-8 col-md-4">
                 <div class="row">
 					<?php if ( is_active_sidebar('side_sidebar_area')) { 
                         
@@ -80,7 +80,7 @@
                             
                    		the_widget( 'WP_Widget_Calendar',
                     	array("title"=> __('Calendar','wip')),
-                        	array('before_widget' => '<div class="pin-article span4"><div class="article">',
+                        	array('before_widget' => '<div class="pin-article col-xs-8 col-md-4"><div class="article">',
 								  'after_widget'  => '</div></div>',
 								  'before_title'  => '<h3 class="title">',
 							      'after_title'   => '</h3>'
@@ -89,7 +89,7 @@
             
                         the_widget( 'WP_Widget_Archives','',
                     	array("title"=> __('Archives','wip')),
-                        	array('before_widget' => '<div class="pin-article span4"><div class="article">',
+                        	array('before_widget' => '<div class="pin-article col-xs-8 col-md-4"><div class="article">',
 								  'after_widget'  => '</div></div>',
 								  'before_title'  => '<h3 class="title">',
 							      'after_title'   => '</h3>'
@@ -98,7 +98,7 @@
             
                         the_widget( 'WP_Widget_Categories','',
                     	array("title"=> __('Categories','wip')),
-                        	array('before_widget' => '<div class="pin-article span4"><div class="article">',
+                        	array('before_widget' => '<div class="pin-article col-xs-8 col-md-4"><div class="article">',
 								  'after_widget'  => '</div></div>',
 								  'before_title'  => '<h3 class="title">',
 							      'after_title'   => '</h3>'

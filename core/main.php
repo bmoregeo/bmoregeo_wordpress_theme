@@ -291,8 +291,8 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
 		
 		"wip_view_comments" => "on",
 
-		"wip_header_sidebar_area" => "span12",
-		"wip_bottom_sidebar_area" => "span4",
+		"wip_header_sidebar_area" => "col-xs-16 col-md-8",
+		"wip_bottom_sidebar_area" => "col-xs-8 col-md-4",
 		
 		"wip_footer_facebook_button" => "",
 		"wip_footer_twitter_button" => "",
@@ -312,7 +312,7 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
 
 function novalite_template($id) {
 
-	$template = array ("full" => "span12" , "left-sidebar" => "span8" , "right-sidebar" => "span8" );
+	$template = array ("full" => "col-xs-24 col-md-12" , "left-sidebar" => "col-xs-16 col-md-8" , "right-sidebar" => "col-xs-16 col-md-8" );
 
 	$span = $template["full"];
 	$sidebar =  "full";

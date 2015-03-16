@@ -4,7 +4,7 @@
 
 <div class="container content">
 	<div class="row" >
-        <div class="pin-article span12">
+        <div class="pin-article col-xs-24 col-md-12">
           
             <article class="article attachment">
             

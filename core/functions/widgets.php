@@ -7,7 +7,7 @@ function novalite_widgets_init() {
 		'name' => 'Sidebar',
 		'id'   => 'side_sidebar_area',
 		'description'   => 'This sidebar will be shown at the side of content.',
-		'before_widget' => '<div class="pin-article span4"><div class="article">',
+		'before_widget' => '<div class="pin-article"><div class="article">',
 		'after_widget'  => '</div></div>',
 		'before_title'  => '<h3 class="title">',
 		'after_title'   => '</h3>'
