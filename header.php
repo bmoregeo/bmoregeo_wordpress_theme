@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-xs-12 col-md-6" >
+            <div class="col-xs-8 col-md-4" >
                
                 <div id="logo">
                         
@@ -61,7 +61,7 @@
                 </div>
     		</div>
 
-            <div class="col-xs-12 col-md-6" >
+            <div class="col-xs-14 col-md-8" >
               
                 <nav id="mainmenu">
                     <?php wp_nav_menu( array('theme_location' => 'main-menu', 'container' => 'false','depth' => 3  )); ?>
