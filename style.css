@@ -1862,9 +1862,12 @@ div.overlay-image.large .wp-post-image { width:300px; height:213px }
 	background:black;
 }
 
+.portfolio{
+	width:292px;
+}
+
 .panel-black{
 	border-color:#AAA !important;
-	min-height:300px;
 }
 .panel-black .panel-heading{
 	border-color:#000;

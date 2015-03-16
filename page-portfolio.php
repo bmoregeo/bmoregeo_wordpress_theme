@@ -22,7 +22,7 @@
         if(have_posts()) : while(have_posts()) : the_post();
     ?>
 
-    <article class="col-xs-8 col-md-4">
+    <article class="portfolio">
         <div class="panel panel-black">
             <a href="<?php the_permalink(); ?>">
             <header class="panel-heading"> <?php the_title(); ?></header>
