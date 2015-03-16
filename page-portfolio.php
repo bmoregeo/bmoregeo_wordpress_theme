@@ -18,7 +18,7 @@
     <?php
         global $more;
         $more = 0;
-        query_posts('cat=2');
+        query_posts('cat=5');
         if(have_posts()) : while(have_posts()) : the_post();
     ?>
 
