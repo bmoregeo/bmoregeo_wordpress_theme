@@ -690,6 +690,7 @@ nav#mainmenu ul ul li ul:before {
 	position: relative;
 	height:auto;
 	max-height:100%;
+	float:right;
 }
 
 .pin-article h1.title {
