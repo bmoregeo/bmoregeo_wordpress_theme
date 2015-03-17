@@ -61,7 +61,7 @@
                 </div>
     		</div>
 
-            <div class="col-xs-14 col-md-8" >
+            <div class="col-xs-16 col-md-8" >
               
                 <nav id="mainmenu">
                     <?php wp_nav_menu( array('theme_location' => 'main-menu', 'container' => 'false','depth' => 3  )); ?>
