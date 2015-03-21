@@ -23,24 +23,7 @@ function novalite_thumbnail($id) {
 		
 		} 
 
-	} else {
-	
-		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'blog');
-		
-		if (!empty($thumb)) :
-		
-	?>
-		
-		<div class="pin-container">
-			<div class="overlay-image blog-thumb">
-				
-			<img src="<?php echo $thumb[0]; ?>" class="attachment-blog wp-post-image" alt="post image" title="post image"> 
-			<a href="<?php echo get_permalink($post->ID); ?>" class="overlay link"></a>
-				
-			</div>
-		</div>
-			
-	<?php
+	}
 	
 	endif;
 	
