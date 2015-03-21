@@ -6,7 +6,12 @@
 
             <div class="row">
             
-                <?php if ( have_posts() ) :  ?>
+                <?php
+                     global $query_string;
+                     query_posts( $query_string . '&posts_per_page=-1' );
+
+                    if ( have_posts() ) :
+                ?>
         
                     <?php while ( have_posts() ) : the_post(); ?>
             
@@ -31,7 +36,10 @@
                         
                     </div>
                         
-                <?php endif; ?>
+                <?php
+                    endif;
+                    wp_reset_query();
+                ?>
             </div>
 			<?php get_template_part('pagination'); ?>
         </div>
