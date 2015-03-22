@@ -14,22 +14,8 @@ function novalite_thumbnail($id) {
 	global $post;
 	
 	if ( ( (is_single()) || (is_page()) )  && (!is_page_template() ) ) {
-
-		if ( get_post_gallery() ) {
-			$gallery = get_post_gallery( get_the_ID(), false );
-
-			/* Loop through all the image and output them one by one */
-			foreach( $gallery['src'] AS $src )
-			{
-				?>
-
-				<img src="<?php echo $src; ?>" class="my-custom-class" alt="Gallery image" />
-
-				<?php
-			}
-		}
-
-		elseif ( has_post_thumbnail() ) {
+	
+		if ( has_post_thumbnail() ) {
 		
 			echo '<div class="pin-container">';
 				the_post_thumbnail($id);
@@ -37,6 +23,20 @@ function novalite_thumbnail($id) {
 		
 		} 
 
+	} else {
+	
+		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'blog');
+		
+		if (!empty($thumb)) :
+		
+	?>
+		
+		
+			
+	<?php
+	
+	endif;
+	
 	}
 
 }
