@@ -16,9 +16,10 @@
 
 <div class="container content">
     <?php
+        global $query_string;
         global $more;
         $more = 0;
-        query_posts('cat=5');
+        query_posts('cat=5' . '&posts_per_page=-1' );
         if(have_posts()) : while(have_posts()) : the_post();
     ?>
 
