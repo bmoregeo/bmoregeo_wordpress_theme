@@ -23,7 +23,17 @@ function novalite_thumbnail($id) {
 		
 		} 
 
-	}
+	} else {
+	
+		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'blog');
+		
+		if (!empty($thumb)) :
+		
+	?>
+		
+		
+			
+	<?php
 	
 	endif;
 	
