@@ -14,15 +14,13 @@ function novalite_thumbnail($id) {
 	global $post;
 	
 	if ( ( (is_single()) || (is_page()) )  && (!is_page_template() ) ) {
-	
-		if ( has_post_thumbnail() ) {
-		
+		if ( get_post_gallery() ) {
+			echo get_post_gallery();
+		} elseif ( has_post_thumbnail() ) {
 			echo '<div class="pin-container">';
 				the_post_thumbnail($id);
 			echo '</div>';
-		
-		} 
-
+		}
 	} else {
 	
 		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'blog');
