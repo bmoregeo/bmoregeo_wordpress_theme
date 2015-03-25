@@ -1896,3 +1896,17 @@ div.overlay-image.large .wp-post-image { width:300px; height:213px }
 .pin-article{
 	margin:15px;
 }
+
+.attachment-gallery{
+	float:right;
+	margin:15px;
+	width:290px;
+}
+.attachment-gallery .panel-body{
+	padding:0;
+}
+.attachment-gallery .panel-heading{
+	background:#000 !important;
+	color:#DDD !important;
+	text-align:center;
+}
