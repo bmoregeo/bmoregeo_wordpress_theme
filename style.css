@@ -280,7 +280,14 @@ a.btn {
 
 #logo a img{
 	margin-top:-15px;
-} 
+}
+
+.col-xs-12 #logo{
+	text-align: center;
+}
+.col-xs-12 #logo a{
+	font-size: 22px;
+}
 
 /* ================= MAIN MENU ================= */
 
