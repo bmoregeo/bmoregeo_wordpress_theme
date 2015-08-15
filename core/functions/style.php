@@ -56,21 +56,7 @@
 
 /* =================== END HEADER STYLE =================== */
 
-/* =================== BEGIN LOGO STYLE =================== */
 
-	$logostyle = '';
-	/* Logo Font */
-	if (novalite_setting('wip_logo_font')) 
-		$logostyle .= "font-family:'".novalite_setting('wip_logo_font')."',Verdana, Geneva, sans-serif;"; 
-
-	/* Logo Font Size */
-	if (novalite_setting('wip_logo_font_size')) 
-		$logostyle .= "font-size:".novalite_setting('wip_logo_font_size').";"; 
-	
-	if ($logostyle)
-		echo '#logo a { '.$logostyle.' } ';
-
-/* =================== END LOGO STYLE =================== */
 
 /* =================== BEGIN NAV STYLE =================== */
 
