@@ -257,9 +257,9 @@ a.btn {
 #logo { 
 	position:relative; 
 	display:block;
-	padding:0; 
-	text-align:center;
-	font-size: 26px;
+	padding:0;
+	font-size:55px;
+	text-align:left;
 	margin: 20px 0;
 	word-wrap: break-word;
 } 
@@ -281,10 +281,10 @@ a.btn {
 #logo a img{
 	margin-top:-15px;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
 	#logo a{
-		font-size:55px;
-		text-align:left;
+		text-align:center;
+		font-size: 26px;
 	}
 }
 
