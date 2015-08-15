@@ -258,7 +258,6 @@ a.btn {
 	position:relative; 
 	display:block;
 	padding:0;
-	font-size:26px;
 	text-align:center;
 	margin: 20px 0;
 	word-wrap: break-word;
@@ -271,6 +270,8 @@ a.btn {
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
+	font-size:26px;
+
 } 
 #logo a:hover { 
 	text-decoration:none;
