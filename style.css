@@ -281,9 +281,11 @@ a.btn {
 #logo a img{
 	margin-top:-15px;
 }
-@media (max-width: 767px) {
-	#logo a{
+@media (max-width: 768px) {
+	#logo{
 		text-align:center;
+	}
+	#logo a{
 		font-size: 26px;
 	}
 }
