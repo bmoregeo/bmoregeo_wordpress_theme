@@ -258,14 +258,14 @@ a.btn {
 	position:relative; 
 	display:block;
 	padding:0; 
-	text-align:left;
+	text-align:center;
+	font-size: 26px;
 	margin: 20px 0;
 	word-wrap: break-word;
 } 
 #logo a { 
 	font-family:'Roboto', Helvetica, Arial, sans-serif ;
-	font-size:55px; 
-	color:#fff ; 
+	color:#fff;
 	text-decoration:none; 
 	text-align:left;
 	-webkit-transition: all .3s ease;
@@ -281,12 +281,11 @@ a.btn {
 #logo a img{
 	margin-top:-15px;
 }
-
-.col-xs-12 #logo{
-	text-align: center;
-}
-.col-xs-12 #logo a{
-	font-size: 22px;
+@media (min-width: 768px) {
+	#logo a{
+		font-size:55px;
+		text-align:left;
+	}
 }
 
 /* ================= MAIN MENU ================= */
