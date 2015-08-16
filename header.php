@@ -44,7 +44,7 @@
                 <div id="logo">
                         
                     <a href="<?php echo home_url(); ?>" title="<?php bloginfo('name') ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo_128x128.png" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo_64x64.png" />
                         <?php 
 
                             if ( novalite_setting('wip_custom_logo') ):
