@@ -5,10 +5,6 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
-<?php if (novalite_setting('wip_custom_favicon')) : ?>
-	<link rel="shortcut icon" href="<?php echo novalite_setting('wip_custom_favicon'); ?>"/>
-<?php endif; ?>
-
 <link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 <link href="//api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
@@ -21,7 +17,10 @@
 <![endif]-->
 
 <script src="//api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"></script>
-<script src="scripts/BmoreGeo.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/BmoreGeo.js"></script>
+
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
 
 <?php 
 
@@ -45,7 +44,7 @@
                 <div id="logo">
                         
                     <a href="<?php echo home_url(); ?>" title="<?php bloginfo('name') ?>">
-                            
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo_128x128.png" />
                         <?php 
 
                             if ( novalite_setting('wip_custom_logo') ):
