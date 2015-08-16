@@ -1925,3 +1925,9 @@ div.overlay-image.large .wp-post-image { width:300px; height:213px }
 	color:#DDD !important;
 	text-align:center;
 }
+
+article ul{
+	list-style:none;
+}
+article ul li:before{ content:"-"; position:relative; left:-5px;}
+article ul li{ text-indent:-5px; }
