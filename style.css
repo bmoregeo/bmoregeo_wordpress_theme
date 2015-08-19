@@ -1942,7 +1942,7 @@ article ul li{ text-indent:-5px; }
 
 
 a{
-	color: #000;
+	color: #000 !important;
 	text-decoration:underline !important;
 }
 a:hover{
@@ -1951,7 +1951,7 @@ a:hover{
 }
 #logo a, nav#mainmenu ul li a, nav#mainmenu ul ul li a {
 	color:#EBAB00 !important;
-	text-decoration:none;
+	text-decoration:none !important;
 }
 ::selection{
 	background:#EBAB00 !important;
