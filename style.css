@@ -1939,3 +1939,14 @@ article ul li{ text-indent:-5px; }
 	border-width: 0 0 1px 1px;
 	float:right;
 }
+
+a{
+	color:#EBAB00 !important;
+}
+a:hover{
+	text-decoration:underline !important;
+}
+::selection{
+	background:#EBAB00 !important;
+
+}
