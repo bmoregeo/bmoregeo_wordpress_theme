@@ -1953,6 +1953,9 @@ a:hover{
 	color:#EBAB00 !important;
 	text-decoration:none !important;
 }
+#logo a:hover, nav#mainmenu ul li a:hover, nav#mainmenu ul ul li a:hover {
+	text-decoration:underline !important;
+}
 ::selection{
 	background:#EBAB00 !important;
 }
