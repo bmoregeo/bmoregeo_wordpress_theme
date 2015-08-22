@@ -1061,7 +1061,7 @@ h3#reply-title small,
 }
 
 #searchform input[type=text] { 
-	width: 70%;
+	width: 65%;
 	margin:0;
 	padding: 10px 2%;
 	display:inline-block;
@@ -1957,10 +1957,10 @@ a:hover{
 	text-decoration:underline !important;
 }
 .wp-pagenavi a{
-	color: #FFF;
+	color: #FFF !important;
 }
 .wp-pagenavi a:hover{
-	color: #000;
+	color: #000 !important;
 }
 ::selection{
 	background:#EBAB00 !important;
