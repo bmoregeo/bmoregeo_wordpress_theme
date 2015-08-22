@@ -29,10 +29,15 @@
                 <?php endwhile; endif;?>
             </div>
         </div>
-
-        <?php get_sidebar(); ?>
-
     </div>
 </div>
+
+<?php if ( novalite_template('span') == "col-xs-16 col-md-8" ) : ?>
+    <section id="sidebar" class="col-xs-16 col-md-4">
+        <div class="row">
+            <?php get_sidebar(); ?>
+        </div>
+    </section>
+<?php endif; ?>
 
 <?php get_footer(); ?>
