@@ -1,22 +1,38 @@
 <?php 
 
-/**
- * Wp in Progress
- * 
- * @author WPinProgress
- *
- * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
- * It is also available at this URL: http://www.gnu.org/licenses/gpl-3.0.txt
- */
+	/**
+	 * Wp in Progress
+	 * 
+	 * @author WPinProgress
+	 *
+	 * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
+	 * It is also available at this URL: http://www.gnu.org/licenses/gpl-3.0.txt
+	 */
 
-novalite_thumbnail('blog'); 
+	get_header(); 
+	novalite_header_content();
 
-?>
+?> 
 
-<article class="article">
+<div class="container content">
 
-	<?php novalite_get_title(); ?>
+    <div class="row" >
     
-	<?php the_content(); ?>
+        <div class="<?php echo novalite_template('span') . " ". novalite_template('sidebar'); ?>" >
+            <div class="pin-article">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-</article>
+                    <?php do_action('novalite_postformat'); ?>
+
+                    <?php wp_link_pages(); ?>
+
+                <?php endwhile; endif;?>
+            </div>
+        </div>
+    </div>
+
+    <?php get_sidebar(); ?>
+</div>
+<?php endif; ?>
+
+<?php get_footer(); ?>
