@@ -30,14 +30,9 @@
             </div>
         </div>
     </div>
-</div>
 
-<?php if ( novalite_template('span') == "col-xs-16 col-md-8" ) : ?>
-    <section id="sidebar" class="col-xs-16 col-md-4">
-        <div class="row">
-            <?php get_sidebar(); ?>
-        </div>
-    </section>
+    <?php get_sidebar(); ?>
+</div>
 <?php endif; ?>
 
 <?php get_footer(); ?>
