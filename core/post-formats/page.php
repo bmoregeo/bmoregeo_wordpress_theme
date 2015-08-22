@@ -13,7 +13,7 @@ novalite_thumbnail('blog');
 
 ?>
 
-<article class="article">
+<article class="article pin-article" >
 
 	<?php novalite_get_title(); ?>
     

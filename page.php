@@ -19,15 +19,13 @@
     <div class="row" >
     
         <div class="<?php echo novalite_template('span') . " ". novalite_template('sidebar'); ?>" >
-            <div class="pin-article">
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                    <?php do_action('novalite_postformat'); ?>
+                <?php do_action('novalite_postformat'); ?>
 
-                    <?php wp_link_pages(); ?>
+                <?php wp_link_pages(); ?>
 
-                <?php endwhile; endif;?>
-            </div>
+            <?php endwhile; endif;?>
         </div>
     </div>
 
