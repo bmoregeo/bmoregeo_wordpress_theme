@@ -79,7 +79,7 @@
         
 		<?php if ( novalite_template('span') == "col-xs-16 col-md-8" ) : ?>
     
-                <section id="sidebar" class="col-xs-8 col-md-4 <?php echo novalite_template('sidebar'); ?>">
+                <section id="sidebar" class="col-xs-16 col-md-4 <?php echo novalite_template('sidebar'); ?>">
                     <div class="row">
 						<?php if ( is_active_sidebar('side_sidebar_area')) { 
                         
