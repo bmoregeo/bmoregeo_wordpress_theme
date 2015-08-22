@@ -1054,14 +1054,14 @@ h3#reply-title small,
 }
 
 #searchform #searchsubmit {
-	width: 15%;
+	width: 30%;
 	margin:0;
 	padding: 10px 1%;
 	display:inline-block;
 }
 
 #searchform input[type=text] { 
-	width: 80%;
+	width: 70%;
 	margin:0;
 	padding: 10px 2%;
 	display:inline-block;
@@ -1955,6 +1955,12 @@ a:hover{
 }
 #logo a:hover, nav#mainmenu ul li a:hover, nav#mainmenu ul ul li a:hover {
 	text-decoration:underline !important;
+}
+.wp-pagenavi a{
+	color: #FFF;
+}
+.wp-pagenavi a:hover{
+	color: #000;
 }
 ::selection{
 	background:#EBAB00 !important;
