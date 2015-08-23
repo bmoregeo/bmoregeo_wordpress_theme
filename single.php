@@ -33,7 +33,13 @@
         
     </div>
 
-	<?php get_sidebar(); ?>
+    <?php if ( novalite_template('span') == "col-xs-16 col-md-8" ) : ?>
+        <section id="sidebar" class="col-xs-16 col-md-4">
+            <div class="row">
+                <?php get_sidebar(); ?>
+            </div>
+        </section>
+    <?php endif; ?>
 
 	<?php endwhile; get_template_part('pagination'); endif;?>
            
