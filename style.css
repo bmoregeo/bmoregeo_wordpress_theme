@@ -1969,3 +1969,7 @@ a:hover{
 footer a{
 	color:#EBAB00 !important;
 }
+.pin-article .button, .pin-article .button::selection{
+	background:none;
+	color:#000;
+}
